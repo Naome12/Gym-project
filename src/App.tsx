@@ -14,6 +14,7 @@ function App() {
 
         setSelectedPage(SelectedPage.Home)
       }
+      if(window.scrollY !== 0) setIsTopOfPage (false);
     }
   })
 
