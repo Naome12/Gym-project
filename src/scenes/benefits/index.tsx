@@ -8,7 +8,7 @@ import {
 } from "@heroicons/react/24/solid";
 import { motion } from "framer-motion";
 import BenefitsPageGraphic from "@/assets/BenefitsPageGraphic.png";
-import Benefit from "./Benefit";
+import Benefit from "./benefits";
 
 const benefits: Array<BenefitType> = [
   {
